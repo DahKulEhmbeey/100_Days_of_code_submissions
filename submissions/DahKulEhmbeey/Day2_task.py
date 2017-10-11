@@ -17,6 +17,8 @@ def check_input(user_input):
         factorial_recursive = 1
     else:
         print("Invalid input.\n")
+        factorial_recursive = 0
+        factorial = 0
         get_input()
     output(user_input, factorial, factorial_recursive)
 
